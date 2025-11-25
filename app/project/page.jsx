@@ -20,11 +20,11 @@ const Project = () => {
             </p>
 
             <Image
-              src="/image/management.png"
+              src="/image/dashboard.png"
               alt="User Management System"
               width={500}
               height={300}
-              className="rounded-lg mb-4 object-cover w-full h-48"
+              className="rounded-lg mb-4 w-full h-48 overflow-auto"
             />
             <div className=" flex-wrap gap-2  flex justify-evenly">
               {skills.map((skill) => (
@@ -52,7 +52,7 @@ const Project = () => {
               alt="User Management System"
               width={500}
               height={300}
-              className="rounded-lg mb-4 object-cover w-full h-48"
+              className="rounded-lg mb-4  w-full h-48 overflow-scroll"
             />
             <div className=" gap-2 flex flex-wrap justify-evenly">
               {skills.map((skill) => (

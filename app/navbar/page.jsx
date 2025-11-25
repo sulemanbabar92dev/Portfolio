@@ -101,7 +101,7 @@ export default function Navbar() {
         <div className="flex justify-evenly">
           <div className=" p-2 w-full  mt-2">
             <Image
-              src=""
+              src="/image/dashboard.png"
               width={50}
               height={50}
               alt="Salman"
