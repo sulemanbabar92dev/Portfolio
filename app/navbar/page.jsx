@@ -80,7 +80,7 @@ export default function Navbar() {
         </button>
       </div>
       <div
-        className={`fixed top-0 right-0 h-full w-42 bg-white dark:bg-gray-800 shadow-lg
+        className={` backdrop-blur fixed top-0 right-0 h-full w-24 sm:w-42 bg-white dark:bg-gray-800 shadow-lg
           transform ${open ? "translate-x-0" : "translate-x-full"}
           transition-transform duration-300 md:hidden z-50`}
       >
