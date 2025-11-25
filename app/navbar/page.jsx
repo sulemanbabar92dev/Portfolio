@@ -116,7 +116,7 @@ export default function Navbar() {
             ✕
           </button>
         </div>
-        <ul className="flex flex-col mt-2 space-y-6 text-lg px-6 dark:text-gray-200">
+        <ul className="flex flex-col mt-5 space-y-6 text-lg px-6 dark:text-gray-200">
           <li>
             <a onClick={() => setOpen(false)} href="#home">
               Home
