@@ -9,7 +9,7 @@ const Project = () => {
         <h2 className="text-3xl sm:text-4xl md:text-4xl lg:text-4xl font-bold mb-6  in-dark:text-white">
           Projects
         </h2>
-
+    
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <div className="  rounded-xl border bg-white p-6 shadow hover:shadow-xl transition in-dark:bg-gray-300 ">
             <h3 className="text-xl text-black font-semibold">
@@ -30,11 +30,11 @@ const Project = () => {
               {skills.map((skill) => (
                 <div
                   key={skill.id}
-                  className="mt-5 flex flex-col items-center justify-center p-2 cursor-pointer text-center  bg-gray-50 text-black border  rounded-xl shadow hover:shadow-xl transition in-dark:bg-gray-300 "
+                  className="group mt-5 flex flex-col items-center justify-center p-2 cursor-pointer text-center  bg-gray-50 text-black border  rounded-xl shadow hover:shadow-xl transition in-dark:bg-gray-300 "
                 >
-                  <div className="text-2xl">{skill.icons}</div>
+                  <div className="text-2xl transition transform duration-300 group-hover:translate-y-1">{skill.icons}</div>
 
-                  <p className="text-[10px] w-10 font-semibold overflow-auto">{skill.title} </p>
+                  <p className="text-[10px] w-10 font-semibold overflow-auto ">{skill.title} </p>
                 </div>
               ))}
             </div>
@@ -58,9 +58,9 @@ const Project = () => {
               {skills.map((skill) => (
                 <div
                   key={skill.id}
-                  className=" mt-5 flex flex-col items-center justify-center cursor-pointer p-2 text-center  bg-gray-50 text-black border rounded-xl shadow hover:shadow-xl transition in-dark:bg-gray-300 "
+                  className="group mt-5 flex flex-col items-center justify-center cursor-pointer p-2 text-center  bg-gray-50 text-black border rounded-xl shadow hover:shadow-xl transition in-dark:bg-gray-300 "
                 >
-                  <div className="text-2xl">{skill.icons}</div>
+                  <div className="text-2xl transition transform duration-300 group-hover:translate-y-1">{skill.icons}</div>
 
                   <p className=" text-[10px] w-10 font-semibold overflow-auto">{skill.title} </p>
                 </div>
@@ -73,4 +73,4 @@ const Project = () => {
   );
 };
 
-export default Project;;
+export default Project;
