@@ -5,7 +5,7 @@ import { skills } from "@/data/page";
 const Project = () => {
   return (
     <div>
-      <section id="projects" className="py-16 text-center">
+      <section id="projects" className="py-16 ">
         <h2 className="  text-4xl font-bold mb-6  in-dark:text-white">
           Projects
         </h2>

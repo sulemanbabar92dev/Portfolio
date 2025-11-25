@@ -72,8 +72,8 @@ export default function Navbar() {
         </ul>
 
         {/* Mobile Button */}
-        <div className="absolute right-5 ">
-         <button onClick={toggleTheme} className=" mr-7 pt-4 sm:hidden md:hidden lg:hidden">
+        <div className="absolute right-5">
+         <button onClick={toggleTheme} className=" mr-7 pt-1 sm:hidden md:hidden lg:hidden">
             {dark ? <FaSun className="text-xl" /> : <FaMoon className="text-xl" />}
           </button>
         <button
