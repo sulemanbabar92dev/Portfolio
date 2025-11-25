@@ -6,6 +6,7 @@ import { RiReactjsFill } from "react-icons/ri";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { RiNextjsFill } from "react-icons/ri";
 import { DiResponsive } from "react-icons/di";
+import { LuTabletSmartphone } from "react-icons/lu";
 export const skills = [
   {
     id: 1,
@@ -45,6 +46,6 @@ export const skills = [
   {
     id: 8,
     title: "Responsive UI",
-    icons: <DiResponsive />,
+    icons: <LuTabletSmartphone />,
   },
 ];
