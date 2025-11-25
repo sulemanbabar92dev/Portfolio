@@ -18,7 +18,7 @@ const Home = () => {
         <h1 className=" mt-10 text-center font-extrabold text-4xl sm:text-5xl md:text-5xl lg:text-5xl  in-dark:text-white">
           Salman Babar
         </h1>
-        <p className=" mt-5 text-center text-lg sm:text-2xl md:text-2xl lg:text-5xl in-dark:text-white">
+        <p className=" mt-5 text-center text-lg sm:text-2xl md:text-2xl lg:text-2xl in-dark:text-white">
           Frontend Developer - React - Next.js - Tailwind.css
         </p>
         <p className="mt-4 max-w-2xl text-lg  text-gray-600 dark:text-gray-400">
