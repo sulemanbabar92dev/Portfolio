@@ -14,7 +14,7 @@ const Skills = () => {
             >
               <div className="text-4xl sm:text-5xl md:text-5xl lg:text-5xl">{skill.icons}</div>
 
-              <p className="text-lg font-bold">{skill.title} </p>
+              <p className="text-[13px] sm:text-lg md:text-lg lg:text-lg font-bold">{skill.title} </p>
             </div>
           ))}
         </div>
