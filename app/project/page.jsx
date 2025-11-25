@@ -48,7 +48,7 @@ const Project = () => {
               A stylish portfolio using Next.js and Tailwind CSS.
             </p>
             <Image
-              src="/image/portfolio.png"
+              src="/image/copy.png"
               alt="User Management System"
               width={500}
               height={300}
