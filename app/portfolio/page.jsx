@@ -9,8 +9,8 @@ export default function Portfolio() {
   return (
     <div>
       <Navbar />
-      <div className="flex justify-center dark:bg-gray-950  dark:text-gray-100">
-        <main id="home" className="container mx-auto px-6 py-15 font-sans ">
+      <div className=" min-h-screen dark:bg-gray-950  dark:text-gray-100">
+        <main id="home" className="container mx-auto px-6 py-15 font-sans text-center flex flex-col items-center">
           <Home />
           <About />
           <Skill />

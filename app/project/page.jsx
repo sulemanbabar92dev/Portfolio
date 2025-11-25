@@ -5,12 +5,12 @@ import { skills } from "@/data/page";
 const Project = () => {
   return (
     <div>
-      <section id="projects" className="py-16">
+      <section id="projects" className="py-16 text-center">
         <h2 className="  text-4xl font-bold mb-6  in-dark:text-white">
           Projects
         </h2>
 
-        <div className="grid sm:grid-cols-2 gap-6">
+        <div className=" max-w-2xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6">
           <div className="  rounded-xl border bg-white p-6 shadow hover:shadow-xl transition in-dark:bg-gray-300 ">
             <h3 className="text-xl text-black font-semibold">
               User Management System
@@ -26,7 +26,7 @@ const Project = () => {
               height={300}
               className="rounded-lg mb-4 object-cover w-full h-48"
             />
-            <div className=" overflow-auto md:overflow-auto gap-2  flex justify-evenly">
+            <div className=" flex-wrap gap-2  flex justify-evenly">
               {skills.map((skill) => (
                 <div
                   key={skill.id}
@@ -54,7 +54,7 @@ const Project = () => {
               height={300}
               className="rounded-lg mb-4 object-cover w-full h-48"
             />
-            <div className="overflow-auto md:overflow-auto gap-2 flex justify-evenly">
+            <div className=" gap-2 flex flex-wrap justify-evenly">
               {skills.map((skill) => (
                 <div
                   key={skill.id}
