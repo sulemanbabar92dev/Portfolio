@@ -10,7 +10,7 @@ const Project = () => {
           Projects
         </h2>
 
-        <div className=" max-w-2xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <div className="  rounded-xl border bg-white p-6 shadow hover:shadow-xl transition in-dark:bg-gray-300 ">
             <h3 className="text-xl text-black font-semibold">
               User Management System
