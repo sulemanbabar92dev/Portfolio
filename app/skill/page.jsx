@@ -5,14 +5,14 @@ const Skills = () => {
   return (
     <div>
       <section id="skills" className="py-16 ">
-        <h1 className=" p-6 text-4xl font-bold in-dark:text-white">Skills</h1>
+        <h1 className=" p-6 text-3xl sm:text-4xl md:text-4xl lg:text-4xl font-bold in-dark:text-white">Skills</h1>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-5">
           {skills.map((skill) => (
             <div
               key={skill.id}
-              className="flex flex-col items-center justify-center p-4 text-center cursor-pointer bg-white text-black border rounded-xl shadow hover:shadow-xl transition in-dark:bg-gray-300 "
+              className="flex flex-col items-center justify-center p-2 sm:p-4 md:p-4 lg:p-4 text-center cursor-pointer bg-white text-black border rounded-xl shadow hover:shadow-xl transition in-dark:bg-gray-300 "
             >
-              <div className="text-5xl">{skill.icons}</div>
+              <div className="text-4xl sm:text-5xl md:text-5xl lg:text-5xl">{skill.icons}</div>
 
               <p className="text-lg font-bold">{skill.title} </p>
             </div>

@@ -15,17 +15,17 @@ const Home = () => {
             className="object-cover"
           />
         </div>
-        <h1 className=" mt-10 text-center font-extrabold text-5xl  in-dark:text-white">
+        <h1 className=" mt-10 text-center font-extrabold text-4xl sm:text-5xl md:text-5xl lg:text-5xl  in-dark:text-white">
           Salman Babar
         </h1>
-        <p className=" mt-5 text-center text-2xl  in-dark:text-white">
+        <p className=" mt-5 text-center text-lg sm:text-2xl md:text-2xl lg:text-5xl in-dark:text-white">
           Frontend Developer - React - Next.js - Tailwind.css
         </p>
-        <p className="mt-4 max-w-2xl text-lg text-gray-600 dark:text-gray-400">
+        <p className="mt-4 max-w-2xl text-lg  text-gray-600 dark:text-gray-400">
           I am a frontend developer learning to build responsive and
           modern websites using React, Next.js, and Tailwind CSS.
         </p>
-        <div className="text-[20px] text-center mt-7  ">
+        <div className="text-[15px] text-center mt-7 sm:text-[20px] md:text-[20px] lg:text-[20px]">
           <a
             href="#projects"
             className="p-2 bg-black text-white font-medium rounded-[7px] mr-7 hover:bg-gray-800 in-dark:bg-gray-100 in-dark:text-black in-dark:hover:bg-gray-300"
