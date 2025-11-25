@@ -18,7 +18,7 @@ export default function Navbar() {
   };
   return (
     <nav className="w-full fixed top-0 left-0  backdrop-blur shadow-sm z-50 in-dark:bg-gray-900 in-dark:backdrop-blur">
-      <div className="container mx-auto px-6 py-4 flex justify-between items-center">
+      <div className="container mx-auto px-6 py-4 flex  sm:flex sm:justify-between sm:items-center md:flex md:justify-between md:items-center lg:flex lg:justify-between lg:items-center">
         <h1 className="text-2xl font-bold  in-dark:text-white">Salman Babar </h1>
 
         <ul className="hidden md:flex space-x-8 text-black font-medium">
@@ -72,18 +72,20 @@ export default function Navbar() {
         </ul>
 
         {/* Mobile Button */}
-         <button onClick={toggleTheme} className="pt-4 sm:hidden md:hidden lg:hidden">
+        <div className="absolute right-5 ">
+         <button onClick={toggleTheme} className=" mr-7 pt-4 sm:hidden md:hidden lg:hidden">
             {dark ? <FaSun className="text-xl" /> : <FaMoon className="text-xl" />}
           </button>
         <button
           onClick={() => setOpen(true)}
-          className="md:hidden text-2xl text-black"
+          className=" md:hidden text-2xl text-black in-dark:text-white"
         >
           ☰
         </button>
+        </div>
       </div>
       <div
-        className={` backdrop-blur fixed top-0 right-0 h-full w-24 sm:w-42 bg-white dark:bg-gray-800 shadow-lg
+        className={` backdrop-blur fixed top-0 right-0 h-full w-40 sm:w-44 bg-white dark:bg-gray-800 shadow-lg
           transform ${open ? "translate-x-0" : "translate-x-full"}
           transition-transform duration-300 md:hidden z-50`}
       >
