@@ -19,7 +19,7 @@ export default function Navbar() {
   return (
     <nav className="w-full fixed top-0 left-0  backdrop-blur shadow-sm z-50 in-dark:bg-gray-900 in-dark:backdrop-blur">
       <div className="container mx-auto px-6 py-4 flex  sm:flex sm:justify-between sm:items-center md:flex md:justify-between md:items-center lg:flex lg:justify-between lg:items-center">
-        <h1 className="text-2xl font-bold  in-dark:text-white">Salman Babar </h1>
+        <h1 className="text-2xl font-bold  in-dark:text-white"> {"</>"}Salman Babar</h1>
 
         <ul className="hidden md:flex space-x-8 text-black font-medium">
           <li>
@@ -73,7 +73,7 @@ export default function Navbar() {
 
         {/* Mobile Button */}
         <div className="absolute right-5">
-         <button onClick={toggleTheme} className=" mr-7 pt-1 sm:hidden md:hidden lg:hidden">
+         <button onClick={toggleTheme} className=" mr-7 pt-2 sm:hidden md:hidden lg:hidden">
             {dark ? <FaSun className="text-xl" /> : <FaMoon className="text-xl" />}
           </button>
         <button
