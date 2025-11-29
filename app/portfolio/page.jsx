@@ -10,7 +10,7 @@ export default function Portfolio() {
     <div>
       <Navbar />
       <div className=" min-h-screen dark:bg-gray-950  dark:text-gray-100">
-        <main id="home" className="container mx-auto px-6 py-15 font-sans ">
+        <main id="home" className="container xl:container 2xl:container mx-auto px-6 py-15 font-sans ">
           <Home />
           <About />
           <Skill />
