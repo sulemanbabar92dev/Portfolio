@@ -38,9 +38,9 @@ const Skills = () => {
             <div
               className="group flex flex-col items-center justify-center p-2 sm:p-4 md:p-4 lg:p-4 text-center cursor-pointer bg-white text-black border rounded-xl shadow hover:shadow-xl transition in-dark:bg-gray-300 "
             >
-              <div className="text-4xl  transition transform duration-300 group-hover:translate-y-2">{skill.icons}</div>
+              <div className="text-4xl transition transform duration-300 group-hover:translate-y-2">{skill.icons}</div>
 
-              <p className="text-lg  font-bold overflow-auto">{skill.title} </p>
+              <p className="text-lg w-auto h-9  sm:h-8 md:h-8 lg:h-8 font-bold overflow-auto">{skill.title} </p>
             </div>
             </SwiperSlide>
           ))}
