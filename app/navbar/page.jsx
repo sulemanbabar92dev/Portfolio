@@ -17,7 +17,7 @@ export default function Navbar() {
     document.documentElement.classList.toggle("dark", !dark);
   };
   return (
-    <nav className="w-full fixed top-0 left-0  backdrop-blur shadow-sm z-50 dark:bg-gray-950/30 ">
+    <nav className="w-full fixed top-0 left-0  backdrop-blur shadow-sm z-50 dark:bg-gray-950/30">
       <div className="container mx-auto px-6 py-4 flex  sm:flex sm:justify-between sm:items-center md:flex md:justify-between md:items-center lg:flex lg:justify-between lg:items-center">
         <h1 className="text-2xl font-bold  in-dark:text-white">
           {"</>"} Salman Babar
