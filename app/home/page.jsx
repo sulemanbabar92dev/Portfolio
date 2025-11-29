@@ -25,7 +25,7 @@ const Home = () => {
           I am a frontend developer learning to build responsive and
           modern websites using React, Next.js, and Tailwind CSS.
         </p>
-        <div className="text-[15px] text-center flex mt-7 sm:text-[20px] md:text-[20px] lg:text-[20px]">
+        <div className="text-[15px] text-center flex  mt-7 sm:text-[20px] md:text-[20px] lg:text-[20px]">
           <a
             href="#projects"
             className="p-2 bg-black text-white font-medium rounded-[7px] mr-7 hover:bg-gray-800 in-dark:bg-gray-100 in-dark:text-black in-dark:hover:bg-gray-300"
